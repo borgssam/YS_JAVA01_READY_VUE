@@ -4,7 +4,7 @@
     <p v-bind:style="{color:tcolor}" >큰집손자 1 :{{message}}</p>
     <input type="text" v-model="gsonMsg">
     <button @click="clickMsg">장손메시지</button>
-
+{{ gpapaLength }}
   </div>
 </template>
 
@@ -44,6 +44,7 @@ export default {
       gsonMsg:'',
     };
   },
+  inject:['gpapaLength'],
   watch: {
     // sample1() {
     //   console.log('');

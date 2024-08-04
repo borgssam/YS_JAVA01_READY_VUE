@@ -4,6 +4,14 @@ import TestView from '../views/TestView.vue'
 import BasicView from '../views/BasicView.vue'
 import DeepView from '../views/DeepView.vue'
 import DeepView2 from '../views/DeepView2.vue'
+import DeepView3 from '../views/DeepView3.vue'
+import CalCulator from '../views/CalCulator.vue'
+import CalculatorApi from '../views/CalculatorApi.vue'
+import CalculatorApi2 from '../views/CalculatorApi2.vue'
+import CalculatorApi3 from '../views/CalculatorApi3.vue'
+import CalculatorApi4 from '../views/CalculatorApi4.vue'
+import MixView from '../views/MixView.vue'
+import UserView from '../views/UserView.vue'
  
 const routes = [
   {
@@ -38,7 +46,49 @@ const routes = [
     path: '/deep2',
     name: 'deep2',
     component: DeepView2
+  },
+  {
+    path: '/deep3',
+    name: 'deep3',
+    component: DeepView3
+  },
+  {
+    path: '/calculator',
+    name: 'calculator',
+    component: CalCulator
+  },
+  {
+    path: '/calculatorapi',
+    name: 'calculatorapi',
+    component: CalculatorApi
+  },
+  {
+    path: '/calculatorapi2',
+    name: 'calculatorapi2',
+    component: CalculatorApi2
+  },
+  {
+    path: '/calculatorapi3',
+    name: 'calculatorapi3',
+    component: CalculatorApi3
+  },
+  {
+    path: '/calculatorapi4',
+    name: 'calculatorapi4',
+    component: CalculatorApi4
+  },
+  {
+    path: '/mixin',
+    name: 'mixin',
+    component: MixView
+  },
+  {
+    path: '/user',
+    name: 'user',
+    component: UserView
   }
+
+
 ]
 
 const router = createRouter({

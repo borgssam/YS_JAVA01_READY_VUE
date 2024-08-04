@@ -6,6 +6,14 @@
     <router-link to="/basic">5.콤포넌트(기본)</router-link>
     <router-link to="/deep">8.콤포넌트(심화)</router-link>
     <router-link to="/deep2">8.콤포넌트(심화2)</router-link>
+    <router-link to="/deep3">8.콤포넌트(심화3)</router-link>
+    <router-link to="/calculator">9.Calculator</router-link>
+    <router-link to="/calculatorapi">9.CalculatorApi</router-link>
+    <router-link to="/calculatorapi2">9.CalculatorApi2</router-link>
+    <router-link to="/calculatorapi3">9.CalculatorApi3</router-link>
+    <router-link to="/calculatorapi4">9.CalculatorApi4</router-link>
+    <router-link to="/mixin">9.Mixin</router-link>
+    <router-link to="/user">10.vuex</router-link>
   </nav>
   <router-view/>
 </template>
